@@ -1,11 +1,11 @@
 import { playList } from "./playlist"
-const audio = document.getElementById ('audio')
-const play = document.getElementById ('play')
-const pause = document.getElementById ('pause')
-const forward = document.getElementById ('forward')
-const rewind = document.getElementById ('rewind')
-const stop = document.getElementById ('stop')
-const previous = document.getElementById ('previous')
+const audio = document.getElementById('audio');
+const play = document.getElementById('play');
+const pause = document.getElementById('pause');
+const forward = document.getElementById('forward');
+const rewind = document.getElementById('rewind');
+const stop = document.getElementById('stop');
+const previous = document.getElementById('previous')
 const next = document.getElementById('next')
 
 play.addEventListener('click', () => {
