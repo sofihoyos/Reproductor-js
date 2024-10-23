@@ -1,12 +1,15 @@
-import { playList } from "./playlist"
+import { playList } from "./playlist.js";
+
 const audio = document.getElementById('audio');
 const play = document.getElementById('play');
 const pause = document.getElementById('pause');
 const forward = document.getElementById('forward');
 const rewind = document.getElementById('rewind');
 const stop = document.getElementById('stop');
-const previous = document.getElementById('previous')
-const next = document.getElementById('next')
+const previous = document.getElementById('previous');
+const next = document.getElementById('next');
+
+
 
 play.addEventListener('click', () => {
     if (audio.paused) {
@@ -19,7 +22,6 @@ play.addEventListener('click', () => {
         play.classList.add('bx-play');
     }
 });
-
 rewind.addEventListener('click', () => audio.currentTime -= 10);
 forward.addEventListener('click', () => audio.currentTime += 10);
 stop.addEventListener('click', () => {
@@ -28,3 +30,4 @@ stop.addEventListener('click', () => {
     play.classList.remove('bx-pause');
     play.classList.add('bx-play');
 });
+
