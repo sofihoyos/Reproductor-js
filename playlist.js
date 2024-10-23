@@ -3,7 +3,7 @@ export const playList = [
       title: 'Hechizos, pocimas y brujeria',
       artist: 'Mago de Oz',
       img: './img/hpb.jpg',
-      song:'./music/Hechizos_pocimas_y_brujeria.mp3'
+      song: 'music/Hechizos__pocimas_y_brujeria.mp3'
     },
     {
       title: 'Bandera Negra',
