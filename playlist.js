@@ -3,30 +3,36 @@ export const playList = [
       title: 'Hechizos, pocimas y brujeria',
       artist: 'Mago de Oz',
       img: './img/hpb.jpg',
-      song:'./music/Hechizos_pocimas_y_brujeria_[YouConvert.net_].mp3'
+      song:'./music/Hechizos_pocimas_y_brujeria.mp3'
     },
     {
       title: 'Bandera Negra',
       artist: 'Mago de Oz',
-      img: './img/bandera_negra.jpg',
-      song: './music/Mago_de_Oz_-_Bandera_negra_Lyric_Video_Oficial__[YouConvert.net_].mp3'
+      img: './img/bandera negra.jpg',
+      song: './music/Bandera_negra.mp3'
     },
     {
       title: 'La cantiga de las brujas',
       artist: 'Mago de Oz',
       img: './img/cantiga.jpeg',
-      song: './music/Mago_de_Oz_-_La_cantiga_de_las_brujas_Lyric_Video__[YouConvert.net_].mp3'
+      song: './music/La_cantiga_de_las_brujas.mp3'
     },
     {
       title: 'La Dama del Mar',
       artist: 'Mago de oz',
-      img: './img/dama_del_mar.jpg',
-      song: './music/Mago_de_Oz_-_La_Dama_del_Mar_Lyric_Video_Oficial__[YouConvert.net_].mp3'
+      img: './img/dama del mar.jpg',
+      song: './music/La_Dama_del_Mar.mp3'
     },
     {
       title: 'Noche de Halloween',
       artist: 'Mago de Oz',
-      img: './img/mago_halloween.jpeg',
-      song: './music/Mago_de_Oz_-_Noche_de_Halloween_Lyric_Video_Oficial__[YouConvert.net_].mp3'
+      img: './img/hallowen.jpeg',
+      song: './music/Noche_de_Halloween.mp3'
+    },
+    {
+      title: 'Heavens On Fire',
+      artist: 'KISS',
+      img: './img/kiss.jpeg',
+      song: "./music/Kiss - Heaven's On Fire.mp3"
     },
   ]
